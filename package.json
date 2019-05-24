@@ -1,0 +1,44 @@
+{
+  "name": "react-simple-tooltip",
+  "version": "0.0.1",
+  "description": "(beta) A react tooltip that can be set to any element. Created with hooks and portals. designed to be light and resuable",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorvaldez5/react-tooltip.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "tooltip",
+    "react-dom",
+    "portal",
+    "react-hooks",
+    "component"
+  ],
+  "author": {
+    "name": "Victor Valdez",
+    "email": "victorvaldez5@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
